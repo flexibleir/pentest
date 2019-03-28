@@ -3,7 +3,7 @@ from __future__ import absolute_import
 
 from flask import Flask
 
-import v1
+from . import v1
 
 
 def create_app():
